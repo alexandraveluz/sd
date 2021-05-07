@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ 	<link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet'>
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Point of Sale A</title>
+ <!-- Latest compiled and minified CSS -->
+
+ <!-- jQuery library -->
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+ <!-- Popper JS -->
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+ <!-- Latest compiled JavaScript -->
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+ <script src="javascript_webpage3.js"></script>
+ <link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="compute">
+	<div class="order-details">
+
+			<br><center><label class="plant-a"> O R D E R &nbsp; D E T A I L S </label><br></center><br>
+
+
+
+		<label for="name of the item" class="label1" >Name of an Item: </label>
+		<input type="text" size="18px" class="input1" name="name_of_item" id="item_name" value=""><br><br>
+		<label for="Quantity" class="label1">Quantity: </label>
+		<input type="text" size="18px" class="input2" name="quantity" id="quantity" value=""><br><br>
+		<label for="name of the item" class="label1">Price: </label>
+		<input type="text" size="18px" class="input3" name="price" id="price"><br><br>
+
+		<label for="Discount Amount" class="label1">Discount Amount: </label>
+		<input type="text" size="18px;" class="input4" name="discount_amount" id="discount_amount" value="" disabled><br><br>
+		<label for="Discounted Amount" class="label1">Discounted Amount: </label>
+		<input type="text" size="18px;" class="input5" name="discounted_amount" id="amount_to_pay" value=""disabled>
+		<br><br><br>
+			
+		<div class="discount">
+			<input type="radio" size="18px;" class="discount1" id="optradio1">
+			<label for="Senior Citizen">Senior Citizen Card </label></br></br>
+			<input type="radio" size="18px;" class="discount2" id="optradio2">
+			<label for="With Disc Card">With Discount Card</label></br></br>
+			<input type="radio" size="18px;" class="discount3" id="3">
+			<label for="Employee Disc">Employee Discount</label></br></br>
+			<input type="radio" size="18px;" class="discount4" id="4">
+			<label for="Employee Disc">No Discount</label>
+		</div>
+
+<div class="summary">
+			<br><center><label class="plant-a"> T O T A L&nbsp; S U M M A R Y</label><br></center></br>
+			<label for="total-quantity" class="label-quantity">Total Quantity </label><br>
+			<input type="text" size="18px" class="input6" name="total_quantity" id="total_quantity" disabled>
+
+			<div class="discount-label"><label for="Total Discount Given " class="label-discount" >&nbsp;&nbsp;&nbsp;Total Discount Given </label><BR></div>
+			<input type="text" size="18px" class="input7" name="total_discount" id="total_discount_given"disabled>
+			
+
+
+			<div class="label-d-total"><label for="Total Discounted Amount" class="label8" >&nbsp;&nbsp;Total Discounted Amount </label><BR></div>
+			
+			<div class="input8"><input type="text" size="18px" class="a" name="total-discounted" id="total_discounted_amount"disabled>
+			</div>
+
+			<div class="enter">
+			<label for="cash-rendered" class="label-total1" >&nbsp;&nbsp;&nbsp;CASH <br>RENDERED : </label>
+		<input type="text"  class="input-total1" name="cash_rendered" id="amount_from_customer">
+
+		<label for="change" class="label-total2">CHANGE :</label>
+		<input type="text" class="input-total2" name="change" id="change" disabled>
+	</div>
+
+
+</div>
+
+<div class="product">
+			<div class="image"><img src="logo.png" class="logo" ></div>
+
+	<div class="column1">
+			<img src="prod1a.jpg"  id="FISH_N_CHIPS">
+			<br><label for="FISH_N_CHIPS">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;FISH N CHIPS</label><br>
+			<img src="prod2.jpg" id="combo_club">
+			<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;COMBO CLUB<br>
+			<img src="prod3.jpg" id="jack_n_box">
+			<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;JACK N A BOX<br>
+			<img src="prod4.jpg" id="picnic_platter">
+			<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PICNIC PLATTER<br>
+			
+	</div>
+
+	<div class="column2">
+			<img src=prod6a.jpg id="breakfast_steak">
+			<br>&nbsp;&nbsp;&nbsp;&nbsp;BREAKFAST STEAK<br>
+			<img src=prod7.jpg id="overload">
+			<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;OVERLOAD<br>
+			<img src=prod8.jpg id="nacho_lover">
+			<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;NACHO LOVER<br>
+			<img src=prod9.jpg id="color_burger">
+			<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;COLOR BURGER<br>
+	</div>		
+ 	
+ 	<div class="column3">	
+			<img src=prod11.jpg id="hamburger_fries">
+			<br>&nbsp;HAMBURGER & FRIES<br>
+			<img src=prod12.jpg id="american_milkshake">
+			<br>AMERICAN MILKSHAKE<br>
+			<img src=prod13.jpg id="high_burner">
+			<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;HIGH BURNER<br>
+			<img src=prod14.jpg id="sweet_tall_pancake">
+			<br>SWEET TALL PANCAKE<br>
+			
+	</div>
+
+	<div class="column4">
+			<img src=prod16.jpg id="banana_split">
+			<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;BANANA SPLIT<br>
+			<img src=prod17.jpg id="waffle_loader">
+			<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;WAFFLE LOADER<br>
+			<img src=prod18.jpg id="ribs_n_eggs_platter">
+			<br>RIBS N EGGS PLATTER<br>
+			<img src=prod19.jpg id="redvelvet_pancake">
+			<br>&nbsp;REDVELVET PANCAKE<br>			
+	</div>
+
+	<div class="column5">
+			<img src="prod5.jpg" id="sweet_tooth">
+			<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SWEET TOOTH<br>
+			<img src=prod10.jpg id="sugar_shake">
+			<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SUGAR SHAKE<br>
+			<img src=prod15.jpg id="american_breakfast">
+			<br>AMERICAN BREAKFAST<br>
+			<img src=prod20.jpg id="cheesecake_overload">
+			<br>CHEESECAKE OVERLOAD<br>
+	</div>
+
+ </div>
+ 
+ </div>
+ <div class="buttons">
+		<button type="submit" class="function1">CALCULATE</button><br>
+		<button type="submit" class="function2" name="change_button" id="btn_change">CHANGE</button><br>
+		<button type="submit" class="function3" name="new" id="btn_new">NEW</button><br>
+		<button type="submit" class="function4" id="btn_new">CANCEL</button>
+		<div class="calcu-enter"><button type="submit" class="enter">E<br>N<br>T<br>E<br>R</button></div>
+
+	</div>
+
+ </div>
+	<div class="calcu-enter"><button type="submit" class="calcu-enter1">E<br>N<br>T<br>E<br>R</button></div>
+
+
+	<div class="calcu-1">
+	
+	<button type="submit" class="sign2">/</button>
+	<button type="submit" class="sign3">*</button>
+	<button type="submit" class="sign4">-</button>
+	<button type="submit" class="sign5">+</button><br>
+	</div>
+
+	<div class="calcu-2">
+	<button type="submit" class="sign6">6</button>
+	<button type="submit" class="sign7">7</button>
+	<button type="submit" class="sign8">8</button>
+	<button type="submit" class="sign9">9</button><br>
+	</div>
+
+
+	<div class="calcu-3">
+	<button type="submit" class="sign10">2</button>
+	<button type="submit" class="sign11">3</button>
+	<button type="submit" class="sign12">4</button>
+	<button type="submit" class="sign13">5</button><br>
+	</div>
+
+	<div class="calcu-4">
+	<button type="submit" class="sign14">0</button>
+	<button type="submit" class="sign15">.</button>
+	<button type="submit" class="sign16">1</button>
+	</div>
+
+		</div>
+
+ </div>
+
+ </div>
+ </div>
+ </div>
+</body>
+</html>
